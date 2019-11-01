@@ -21,7 +21,7 @@ window.onload = function () {
   actualizarLimiteEnPantalla();
 };
 
-//Funciones que tenes que completar
+
 function cambiarLimiteDeExtraccion() {
   limiteExtraccion = parseInt(prompt("Ingrese nuevo limite de extraccion:"));
   if (Number.isNaN(limiteExtraccion) || limiteExtraccion == "" || limiteExtraccion === null) {
